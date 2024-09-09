@@ -355,10 +355,19 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
+.flex_achivement{
+  display: flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction :row;
+  justify-content: space-evenly;
+}
+
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 30%;
+  height: 30%;
 }
 
 .project-title {
